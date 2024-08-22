@@ -18,7 +18,7 @@ const CartItem =({cartItem})=> {
             <p>Price: $ {foods.price * cartItem.quantity}</p>
             </div>
 
-            <MdDelete onClick={()=> dispatch(removeItemFromCart({cartItemId: cartItem.id})) } />
+            <MdDelete className="btn-quantity" onClick={()=> dispatch(removeItemFromCart({cartItemId: cartItem.id})) } />
         </div>
     )
 }
