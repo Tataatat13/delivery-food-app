@@ -41,6 +41,7 @@ h4 {
   font-size: 25px;
 }
 .btn-quantity {
+  cursor: pointer;
   font-family: "New Amsterdam", sans-serif;
   border-radius: 10px;
   padding: 5px;
@@ -49,6 +50,17 @@ h4 {
   color: rgb(26, 73, 32);
   border: none;
   margin-top: -10px;
+}
+.item-count {
+  position: absolute;
+  top: -8px;
+  right: -12px;
+  background-color: rgb(248, 3, 52);
+  color: rgb(49, 19, 91);
+  border-radius: 50%;
+  padding: 3px 6px;
+  font-size: 15px;
+  font-weight: bold;
 }
 img {
   width: 150px;
