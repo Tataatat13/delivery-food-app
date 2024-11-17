@@ -124,7 +124,7 @@ const dataFoods = [
         name:"New-Yorks Hotdog",
         img:"new-yorks-hotdog",
         price: "8",
-        category:"BURGERS-HOTDOG-SANDWICH"
+        category:"BURGERS"
     },
     {
         id: 19,
@@ -138,7 +138,7 @@ const dataFoods = [
         name:"Salmon Sandwich",
         img:"salmon-sandwich",
         price: "10",
-        category:"BURGERS-HOTDOG-SANDWICH"
+        category:"BURGERS"
     },
     {
         id: 21,
@@ -166,7 +166,7 @@ const dataFoods = [
         name:"Double Beef Burger",
         img:"double-beef-burger",
         price: "10",
-        category:"BURGERS-HOTDOG-SANDWICH"
+        category:"BURGERS"
     },
     {
         id: 25,
@@ -187,7 +187,7 @@ const dataFoods = [
         name:"Classic Burger",
         img:"classic-burger",
         price: "5",
-        category:"BURGERS-HOTDOG-SANDWICH"
+        category:"BURGERS"
     },
     {
         id: 28,
@@ -236,7 +236,7 @@ const dataFoods = [
         name:"Beef Burger",
         img:"beef-burger",
         price: "6",
-        category:"BURGERS-HOTDOG-SANDWICH"
+        category:"BURGERS"
     },
     {
         id: 35,
@@ -250,14 +250,14 @@ const dataFoods = [
         name:"Bagel",
         img:"bagel",
         price: "9",
-        category:"BURGERS-HOTDOG-SANDWICH"
+        category:"BURGERS"
     },
     {
         id: 37,
         name:"Bacon Sandwich",
         img:"bacon-sandwich",
         price: "10",
-        category:"BURGERS-HOTDOG-SANDWICH"
+        category:"BURGERS"
     },
     {
         id: 38,

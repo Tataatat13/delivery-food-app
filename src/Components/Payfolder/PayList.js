@@ -4,6 +4,7 @@ import { getTotalPrice, getTotalQuantity } from "../../redux/PaySlice";
 import { useSelector } from "react-redux";
 import { getCartItems } from "../../redux/PaySlice";
 import CartItem from "./CartItem";
+import "./CartItemStyles.css";
 
 
 const PayList =()=>{
@@ -12,7 +13,7 @@ const PayList =()=>{
     const totalQuantity = useSelector(getTotalQuantity);
     let [cartOpen, setCartOpen] = useState(false);
     return(
-        <div>
+        <div className="pay-box">
             <TiShoppingCart onClick={() => setCartOpen(cartOpen = !cartOpen)}
             className={`shop-cart-button ${cartOpen && 'active'}`} />
 

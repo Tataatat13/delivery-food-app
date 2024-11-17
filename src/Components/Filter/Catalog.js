@@ -1,17 +1,25 @@
 import Filter from "./Filter";
+import "./CatalogStyles.css";
+import PayList from "../Payfolder/PayList";
 
 const Catalog =()=> {
     return (
-        <div>
-            <h1>What do you want to order?</h1>
+        <div className="header">
+            <h1>Our menu</h1>
+            <h3>Food Delivery App</h3>
+
             <div className="category-box">
-                
-                    
-                    {['ALL', 'SALAD', 'SEAFOOD', 'BOWL', 'SUSHI', 'PIZZA','PASTA', 'BURGERS-HOTDOG-SANDWICH', 'DESSERT']
+                                
+                    {['ALL', 'SALAD', 'SEAFOOD', 'BOWL', 'SUSHI', 'PIZZA','PASTA', 'BURGERS', 'DESSERT']
                     .map(category => <Filter key={category} category={category}/>)}
+        
         
                 
                 </div>
+                <div className="pay-shopCart">
+                <PayList/>
+                </div>
+                
         </div>
     )
 }
